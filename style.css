@@ -1,0 +1,111 @@
+.blue_buble {
+    border-radius: 7px;
+    border-color: black;
+    box-shadow: 0 0 10px rgb(240, 248, 255);
+    border-width: 1px;
+    padding: 5px 10px 5px 10px;
+    background-color: aliceblue;
+	border-collapse:collapse;
+}
+
+.rose_buble{
+
+    border-radius: 7px;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-width: 2px;
+    padding: 5px 10px 5px 10px;
+    background-color: mistyrose;
+
+}
+
+.text-shadow {
+    text-shadow: 2px 2px #000;
+}
+
+/* slide 1*/
+#page_1_round_padding {
+    z-index: 10;
+}
+@media (min-width: 320px) {
+    #page_1_round_padding {
+        margin-right: -15px;
+    }
+}
+@media (min-width: 568px) {
+    #page_1_round_padding {
+        margin-right: -20px;
+    }
+}
+@media (min-width: 576px) {
+    #page_1_round_padding {
+        margin-right: -45px;
+    }
+}
+.mini_white_bible {
+
+
+    border-radius: 3px;
+    border-color: black;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border-width: 1px;
+
+    background-color:#FFFFFF;
+    font-size: 12px;
+    margin: 3px 3px 3px 3px;
+
+}
+
+.h2_white {
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: #FFFFFF; 
+	
+}
+
+.s_white
+{
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+.s_info
+{
+box-shadow: 0 0 30px rgba(209, 236, 241, 0.5);
+}
+
+.s_warning
+{
+box-shadow: 0 0 30px rgba(255, 243, 205, 0.5);
+}
+
+.s_success
+{
+box-shadow: 0 0 30px rgba(212, 237, 218, 0.5);
+}
+
+.s_danger
+{
+box-shadow: 0 0 30px rgba(248, 215, 218, 0.5);
+}
+
+.s_primary 
+{
+    box-shadow: 0 0 30px rgba(204, 229, 255, 0.5);
+}
+
+.white_bg_img
+{
+    margin-top:auto;margin-bottom:auto; background-color: #fff;
+}
+
+.footer {
+  position: initial;
+  bottom: 0;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+}
+.footer div {
+    z-index: 20;
+}
+
+.main_header h1, .main_header h2, .main_header h3, .main_header h4{
+    text-shadow: 0 0 10px rgb(245, 8, 30);
+}
