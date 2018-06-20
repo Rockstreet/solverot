@@ -6,6 +6,10 @@
     padding: 5px 10px 5px 10px;
     background-color: aliceblue;
 	border-collapse:collapse;
+    font-weight: bold;
+}
+.blue_buble:hover {
+    text-decoration: underline;
 }
 
 .rose_buble{
