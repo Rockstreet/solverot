@@ -7,6 +7,7 @@
     border-collapse:collapse;
     font-weight: bold;
 }
+
 .blue_buble {
     border-radius: 7px;
     border-color: black;
@@ -16,6 +17,7 @@
     background-color: aliceblue;
 	border-collapse:collapse;
     font-weight: bold;
+    color: #212529;
 }
 .blue_buble:hover {
     text-decoration: underline;
@@ -123,10 +125,24 @@ box-shadow: 0 0 30px rgba(248, 215, 218, 0.5);
     text-shadow: 0 0 10px rgb(245, 8, 30);
 }
 .home_link {
-    background-color: aqua;
+    /*background-color: aqua;*/
 
     text-align: center;
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+.triangle {
+    margin: 0 auto -5px;
+    z-index: 10;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-left: 1px solid #dc3545;
+    border-top: 1px solid #dc3545;
+    background-color: #f8d7da;
 }
